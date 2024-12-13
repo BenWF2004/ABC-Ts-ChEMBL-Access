@@ -1,0 +1,8 @@
+molecule_chembl_id,activity_type,standard_value,standard_units,confidence_score
+CHEMBL2205646,Vmax,2.65,nmol/min,
+CHEMBL53463,Vmax,8.38,nmol/min,
+CHEMBL2203374,Vmax,4.23,nmol/min,
+CHEMBL1644,Km,2500000.0,nM,
+CHEMBL1644,Vmax,0.6,nmol/min,
+CHEMBL1528022,Km,187000.0,nM,
+CHEMBL1528022,Vmax,460.0,pmol/min/mg,

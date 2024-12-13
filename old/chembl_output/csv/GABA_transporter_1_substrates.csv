@@ -1,0 +1,13 @@
+molecule_chembl_id,activity_type,standard_value,standard_units,confidence_score
+CHEMBL1027,Vmax,491.0,amol/cell.min,
+CHEMBL1027,Km,19700.0,nM,
+CHEMBL1027,Vmax,419.0,amol/cell.min,
+CHEMBL1027,Km,29400.0,nM,
+CHEMBL4525620,Vmax,332.0,amol/cell.min,
+CHEMBL4537310,Vmax,341.0,amol/cell.min,
+CHEMBL4525620,Km,10100.0,nM,
+CHEMBL4537310,Km,8200.0,nM,
+CHEMBL4525620,Vmax,165.0,amol/cell.min,
+CHEMBL4537310,Vmax,183.0,amol/cell.min,
+CHEMBL4525620,Km,5700.0,nM,
+CHEMBL4537310,Km,5100.0,nM,

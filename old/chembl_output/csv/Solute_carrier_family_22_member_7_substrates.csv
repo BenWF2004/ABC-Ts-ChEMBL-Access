@@ -1,0 +1,5 @@
+molecule_chembl_id,activity_type,standard_value,standard_units,confidence_score
+CHEMBL815,Km,425.0,nM,
+CHEMBL548,Km,713.0,nM,
+CHEMBL129,Km,26800.0,nM,
+CHEMBL1440,Km,439900.0,nM,

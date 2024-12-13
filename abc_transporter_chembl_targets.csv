@@ -1,0 +1,32 @@
+gene,target_chembl_id,pref_name,target_type,organism
+ABCA1,CHEMBL2362986,ATP-binding cassette sub-family A member 1,SINGLE PROTEIN,Homo sapiens
+ABCB1,CHEMBL4302,P-glycoprotein 1,SINGLE PROTEIN,Homo sapiens
+ABCB1,CHEMBL3430875,Multidrug resistance protein 1/Multidrug resistance associated protein 1,SELECTIVITY GROUP,Homo sapiens
+ABCB2,CHEMBL4523275,Antigen peptide transporter 1,SINGLE PROTEIN,Homo sapiens
+ABCB2,CHEMBL4523654,Antigen peptide transporter 1/2,PROTEIN COMPLEX,Homo sapiens
+ABCB3,CHEMBL4523654,Antigen peptide transporter 1/2,PROTEIN COMPLEX,Homo sapiens
+ABCB4,CHEMBL1743129,Multidrug resistance protein 3,SINGLE PROTEIN,Homo sapiens
+ABCB5,CHEMBL1772928,ATP-binding cassette sub-family B member 5,SINGLE PROTEIN,Homo sapiens
+ABCB6,CHEMBL2007630,"ATP-binding cassette sub-family B member 6, mitochondrial",SINGLE PROTEIN,Homo sapiens
+ABCB9,CHEMBL1293189,ATP-binding cassette sub-family B member 9,SINGLE PROTEIN,Homo sapiens
+ABCB11,CHEMBL6020,Bile salt export pump,SINGLE PROTEIN,Homo sapiens
+ABCC1,CHEMBL3004,Multidrug resistance-associated protein 1,SINGLE PROTEIN,Homo sapiens
+ABCC1,CHEMBL3430875,Multidrug resistance protein 1/Multidrug resistance associated protein 1,SELECTIVITY GROUP,Homo sapiens
+ABCC2,CHEMBL5748,Canalicular multispecific organic anion transporter 1,SINGLE PROTEIN,Homo sapiens
+ABCC2,CHEMBL3885536,Canalicular multispecific organic anion transporter 1/Solute carrier organic anion transporter family member 1B1,PROTEIN FAMILY,Homo sapiens
+ABCC3,CHEMBL5918,Canalicular multispecific organic anion transporter 2,SINGLE PROTEIN,Homo sapiens
+ABCC4,CHEMBL1743128,Multidrug resistance-associated protein 4,SINGLE PROTEIN,Homo sapiens
+ABCC5,CHEMBL2046258,Multidrug resistance-associated protein 5,SINGLE PROTEIN,Homo sapiens
+ABCC6,CHEMBL2073661,Multidrug resistance-associated protein 6,SINGLE PROTEIN,Homo sapiens
+ABCC7,CHEMBL4051,Cystic fibrosis transmembrane conductance regulator,SINGLE PROTEIN,Homo sapiens
+ABCC7,CHEMBL3885559,Cystic fibrosis transmembrane conductance regulator/Golgi-associated PDZ and coiled-coil motif-containing protein,PROTEIN-PROTEIN INTERACTION,Homo sapiens
+ABCC8,CHEMBL2071,Sulfonylurea receptor 1,SINGLE PROTEIN,Homo sapiens
+ABCC8,CHEMBL2096972,"Sulfonylurea receptor 1, Kir6.2",PROTEIN COMPLEX,Homo sapiens
+ABCC8,CHEMBL2095152,Sulfonylurea receptors; K-ATP channels,PROTEIN COMPLEX GROUP,Homo sapiens
+ABCC9,CHEMBL1971,Sulfonylurea receptor 2,SINGLE PROTEIN,Homo sapiens
+ABCC9,CHEMBL2095198,"Sulfonylurea receptor 2, Kir6.2",PROTEIN COMPLEX,Homo sapiens
+ABCC9,CHEMBL2095152,Sulfonylurea receptors; K-ATP channels,PROTEIN COMPLEX GROUP,Homo sapiens
+ABCC10,CHEMBL2073687,Multidrug resistance-associated protein 7,SINGLE PROTEIN,Homo sapiens
+ABCC11,CHEMBL2073702,ATP-binding cassette sub-family C member 11,SINGLE PROTEIN,Homo sapiens
+ABCD1,CHEMBL5303722,ABCD1,NUCLEIC-ACID,Homo sapiens
+ABCG2,CHEMBL5393,ATP-binding cassette sub-family G member 2,SINGLE PROTEIN,Homo sapiens

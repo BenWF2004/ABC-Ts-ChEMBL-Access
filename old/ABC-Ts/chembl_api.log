@@ -1,0 +1,81 @@
+2024-12-10 22:14:13,553 - INFO - Starting the ABC transporter data retrieval process.
+2024-12-10 22:14:13,553 - INFO - Searching for human ABC transporters from ChEMBL...
+2024-12-10 22:14:15,437 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:15,437 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 0)]
+2024-12-10 22:14:15,437 - INFO - From cache: False
+2024-12-10 22:14:15,439 - INFO - Found 480 total results for 'ABC transporter'.
+2024-12-10 22:14:15,445 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:15,445 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 0)]
+2024-12-10 22:14:15,445 - INFO - From cache: True
+2024-12-10 22:14:17,195 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:17,195 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 20)]
+2024-12-10 22:14:17,195 - INFO - From cache: False
+2024-12-10 22:14:18,875 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:18,876 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 40)]
+2024-12-10 22:14:18,876 - INFO - From cache: False
+2024-12-10 22:14:20,451 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:20,451 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 60)]
+2024-12-10 22:14:20,451 - INFO - From cache: False
+2024-12-10 22:14:21,857 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:21,857 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 80)]
+2024-12-10 22:14:21,857 - INFO - From cache: False
+2024-12-10 22:14:23,187 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:23,188 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 100)]
+2024-12-10 22:14:23,188 - INFO - From cache: False
+2024-12-10 22:14:24,640 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:24,640 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 120)]
+2024-12-10 22:14:24,640 - INFO - From cache: False
+2024-12-10 22:14:26,395 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:26,395 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 140)]
+2024-12-10 22:14:26,395 - INFO - From cache: False
+2024-12-10 22:14:27,815 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:27,815 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 160)]
+2024-12-10 22:14:27,815 - INFO - From cache: False
+2024-12-10 22:14:29,491 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:29,491 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 180)]
+2024-12-10 22:14:29,491 - INFO - From cache: False
+2024-12-10 22:14:31,187 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:31,187 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 200)]
+2024-12-10 22:14:31,188 - INFO - From cache: False
+2024-12-10 22:14:32,880 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:32,880 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 220)]
+2024-12-10 22:14:32,881 - INFO - From cache: False
+2024-12-10 22:14:34,199 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:34,200 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 240)]
+2024-12-10 22:14:34,200 - INFO - From cache: False
+2024-12-10 22:14:35,962 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:35,962 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 260)]
+2024-12-10 22:14:35,963 - INFO - From cache: False
+2024-12-10 22:14:37,552 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:37,552 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 280)]
+2024-12-10 22:14:37,552 - INFO - From cache: False
+2024-12-10 22:14:38,812 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:38,812 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 300)]
+2024-12-10 22:14:38,812 - INFO - From cache: False
+2024-12-10 22:14:40,014 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:40,015 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 320)]
+2024-12-10 22:14:40,015 - INFO - From cache: False
+2024-12-10 22:14:41,577 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:41,577 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 340)]
+2024-12-10 22:14:41,577 - INFO - From cache: False
+2024-12-10 22:14:43,814 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:43,814 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 360)]
+2024-12-10 22:14:43,815 - INFO - From cache: False
+2024-12-10 22:14:46,042 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:46,042 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 380)]
+2024-12-10 22:14:46,042 - INFO - From cache: False
+2024-12-10 22:14:47,720 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:47,721 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 400)]
+2024-12-10 22:14:47,721 - INFO - From cache: False
+2024-12-10 22:14:49,002 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:49,003 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 420)]
+2024-12-10 22:14:49,003 - INFO - From cache: False
+2024-12-10 22:14:50,519 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:50,519 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 440)]
+2024-12-10 22:14:50,519 - INFO - From cache: False
+2024-12-10 22:14:52,448 - INFO - https://www.ebi.ac.uk/chembl/api/data/target/search.json
+2024-12-10 22:14:52,448 - INFO - [('q', 'ABC%20transporter'), ('limit', 20), ('offset', 460)]
+2024-12-10 22:14:52,448 - INFO - From cache: False
+2024-12-10 22:14:52,454 - INFO - Total human ABC transporters after filtering and deduplication: 215
+2024-12-10 22:14:52,455 - INFO - Saving ABC transporter data to ABC-Ts/csv/abc_transporters_human.csv...
+2024-12-10 22:14:52,495 - INFO - Successfully saved 215 ABC transporters to CSV.

@@ -1,0 +1,6 @@
+activity_id,assay_chembl_id,molecule_chembl_id,standard_type,standard_value,standard_units,standard_relation,published_value,published_units,published_relation,pchembl_value,activity_comment,data_validity_comment,confidence_score,ligand_efficiency,document_chembl_id,record_id,target_chembl_id
+11001730,CHEMBL2076987,CHEMBL224867,IC50,40000.0,nM,=,,,,4.40,inhibitor [IC50=40uM],,,,CHEMBL2073843,1672363,CHEMBL2073669
+11002358,CHEMBL2077552,CHEMBL493586,Ki,105000.0,nM,=,,,,,inhibitor [Ki=105uM],Outside typical range,,,CHEMBL2073954,1672942,CHEMBL2073669
+11002396,CHEMBL2077552,CHEMBL34259,Ki,1200000.0,nM,=,,,,,inhibitor [Ki=1200uM],Outside typical range,,,CHEMBL2073954,1672974,CHEMBL2073669
+11002893,CHEMBL2077552,CHEMBL213947,Ki,337000.0,nM,=,,,,,inhibitor [Ki=337uM],Outside typical range,,,CHEMBL2073954,1669203,CHEMBL2073669
+11003175,CHEMBL2077552,CHEMBL2074599,Ki,5600.0,nM,=,,,,5.25,inhibitor [Ki=5.6uM],,,,CHEMBL2073954,1668918,CHEMBL2073669

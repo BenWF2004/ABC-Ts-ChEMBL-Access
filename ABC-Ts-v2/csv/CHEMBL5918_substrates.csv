@@ -1,0 +1,8 @@
+activity_id,assay_chembl_id,molecule_chembl_id,standard_type,standard_value,standard_units,standard_relation,published_value,published_units,published_relation,pchembl_value,activity_comment,data_validity_comment,confidence_score,ligand_efficiency,document_chembl_id,record_id,target_chembl_id
+12171221,CHEMBL2208830,CHEMBL2205646,Vmax,2.65,nmol/min,=,,,,,,,,,CHEMBL2203231,1758877,CHEMBL5918
+12171222,CHEMBL2208830,CHEMBL53463,Vmax,8.38,nmol/min,=,,,,,,,,,CHEMBL2203231,1758874,CHEMBL5918
+12171223,CHEMBL2208830,CHEMBL2203374,Vmax,4.23,nmol/min,=,,,,,,,,,CHEMBL2203231,1755798,CHEMBL5918
+15450654,CHEMBL3537701,CHEMBL1644,Km,2500000.0,nM,=,,,,,,,,,CHEMBL3526024,2469697,CHEMBL5918
+15450657,CHEMBL3537704,CHEMBL1644,Vmax,0.6,nmol/min,=,,,,,,,,,CHEMBL3526024,2469697,CHEMBL5918
+15462569,CHEMBL3533974,CHEMBL1528022,Km,187000.0,nM,=,,,,,,,,,CHEMBL3526030,2469912,CHEMBL5918
+15462571,CHEMBL3533974,CHEMBL1528022,Vmax,460.0,pmol/min/mg,=,,,,,,,,,CHEMBL3526030,2469912,CHEMBL5918
