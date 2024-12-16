@@ -1,0 +1,3 @@
+activity_id,assay_chembl_id,molecule_chembl_id,standard_type,standard_value,standard_units,standard_relation,published_value,published_units,published_relation,pchembl_value,activity_comment,data_validity_comment,confidence_score,ligand_efficiency,document_chembl_id,record_id,target_chembl_id,smiles
+11000165,CHEMBL2075979,CHEMBL395336,Km,2100.0,nM,=,,,,,substrate [Km=2.1uM],,,,CHEMBL2074325,1670116,CHEMBL2046258,Nc1nc2c(ncn2[C@@H]2O[C@@H]3COP(=O)(O)O[C@H]3[C@H]2O)c(=O)[nH]1
+11000563,CHEMBL2075979,CHEMBL316966,Km,379000.0,nM,=,,,,,substrate [Km=379uM],,,,CHEMBL2074325,1669979,CHEMBL2046258,Nc1ncnc2c1ncn2[C@@H]1O[C@@H]2COP(=O)(O)O[C@H]2[C@H]1O

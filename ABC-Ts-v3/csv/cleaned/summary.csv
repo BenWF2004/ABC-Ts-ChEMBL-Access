@@ -1,0 +1,23 @@
+pref_name,target_chembl_id,number_of_inhibitors,number_of_substrates,number_of_cleaned_inhibitors,number_of_cleaned_substrates
+ABC-1,CHEMBL1075391,102,0,71,0
+P-glycoprotein 1,CHEMBL4302,4349,195,3604,195
+Sulfonylurea receptor 1,CHEMBL2071,8,0,8,0
+Multidrug resistance-associated protein 6,CHEMBL2073661,0,2,0,2
+Bile salt export pump,CHEMBL6020,1707,4,470,4
+Multidrug resistance associated protein,CHEMBL2073669,5,16,2,16
+Canalicular multispecific organic anion transporter 1,CHEMBL5748,698,16,83,16
+ATP-binding cassette sub-family G member 2,CHEMBL5393,2578,102,2140,102
+Multidrug resistance-associated protein 4,CHEMBL1743128,661,15,134,15
+"Sulfonylurea receptor 2, Kir6.2",CHEMBL2095198,225,0,203,0
+Cystic fibrosis transmembrane conductance regulator,CHEMBL4051,1135,130,1012,130
+Multidrug resistance-associated protein 5,CHEMBL2046258,9,2,7,2
+Multidrug resistance protein 3,CHEMBL1743129,2,0,1,0
+Canalicular multispecific organic anion transporter 2,CHEMBL5918,635,7,48,7
+Multidrug resistance-associated protein 1,CHEMBL3004,1060,37,693,37
+Multidrug resistance-associated protein 7,CHEMBL2073687,0,1,0,1
+ATP-binding cassette sub-family C member 11,CHEMBL2073702,0,3,0,3
+"ATP-binding cassette sub-family B member 6, mitochondrial",CHEMBL2007630,20,0,0,0
+Sulfonylurea receptors; K-ATP channels,CHEMBL2095152,385,0,326,0
+"Sulfonylurea receptor 1, Kir6.2",CHEMBL2096972,117,0,82,0
+"Chaperone activity of bc1 complex-like, mitochondrial",CHEMBL5550,384,0,38,0
+Sulfonylurea receptor 2,CHEMBL1971,56,0,53,0

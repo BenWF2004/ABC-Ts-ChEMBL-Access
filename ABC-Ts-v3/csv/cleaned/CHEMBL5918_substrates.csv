@@ -1,0 +1,8 @@
+activity_id,assay_chembl_id,molecule_chembl_id,standard_type,standard_value,standard_units,standard_relation,published_value,published_units,published_relation,pchembl_value,activity_comment,data_validity_comment,confidence_score,ligand_efficiency,document_chembl_id,record_id,target_chembl_id,smiles
+12171221,CHEMBL2208830,CHEMBL2205646,Vmax,2.65,nmol/min,=,,,,,,,,,CHEMBL2203231,1758877,CHEMBL5918,COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)COC(=O)CCOc1no[n+]([O-])c1S(=O)(=O)c1ccccc1)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1.Cl
+12171222,CHEMBL2208830,CHEMBL53463,Vmax,8.38,nmol/min,=,,,,,,,,,CHEMBL2203231,1758874,CHEMBL5918,COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)CO)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1
+12171223,CHEMBL2208830,CHEMBL2203374,Vmax,4.23,nmol/min,=,,,,,,,,,CHEMBL2203231,1755798,CHEMBL5918,COc1cccc2c1C(=O)c1c(O)c3c(c(O)c1C2=O)C[C@@](O)(C(=O)COC(=O)c1ccc(CC(CO[N+](=O)[O-])O[N+](=O)[O-])cc1)C[C@@H]3O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1.Cl
+15450654,CHEMBL3537701,CHEMBL1644,Km,2500000.0,nM,=,,,,,,,,,CHEMBL3526024,2469697,CHEMBL5918,CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)c3ccc(O)cc3)[C@H]2SC1
+15450657,CHEMBL3537704,CHEMBL1644,Vmax,0.6,nmol/min,=,,,,,,,,,CHEMBL3526024,2469697,CHEMBL5918,CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)[C@H](N)c3ccc(O)cc3)[C@H]2SC1
+15462569,CHEMBL3533974,CHEMBL1528022,Km,187000.0,nM,=,,,,,,,,,CHEMBL3526030,2469912,CHEMBL5918,O=C(O)[C@H]1O[C@@H](Oc2ccc3ccc(=O)oc3c2)[C@H](O)[C@@H](O)[C@@H]1O
+15462571,CHEMBL3533974,CHEMBL1528022,Vmax,460.0,pmol/min/mg,=,,,,,,,,,CHEMBL3526030,2469912,CHEMBL5918,O=C(O)[C@H]1O[C@@H](Oc2ccc3ccc(=O)oc3c2)[C@H](O)[C@@H](O)[C@@H]1O

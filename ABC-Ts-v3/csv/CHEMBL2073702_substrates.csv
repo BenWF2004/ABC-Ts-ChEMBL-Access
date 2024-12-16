@@ -1,0 +1,4 @@
+activity_id,assay_chembl_id,molecule_chembl_id,standard_type,standard_value,standard_units,standard_relation,published_value,published_units,published_relation,pchembl_value,activity_comment,data_validity_comment,confidence_score,ligand_efficiency,document_chembl_id,record_id,target_chembl_id,smiles
+10996936,CHEMBL2076056,CHEMBL259898,Km,13000.0,nM,=,,,,,substrate [Km=13uM],,,,CHEMBL2074545,1669710,CHEMBL2073702,C[C@]12CC[C@H](OS(=O)(=O)O)CC1=CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12
+11000711,CHEMBL2076056,CHEMBL1697724,Km,62900.0,nM,=,,,,,substrate [Km=62.9uM],,,,CHEMBL2074545,1670726,CHEMBL2073702,C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CC[C@@H]2O[C@@H]1O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]1O
+11001039,CHEMBL2076056,CHEMBL34259,Km,957000.0,nM,=,,,,,substrate [Km=957uM],,,,CHEMBL2074545,1670997,CHEMBL2073702,CN(Cc1cnc2nc(N)nc(N)c2n1)c1ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc1
