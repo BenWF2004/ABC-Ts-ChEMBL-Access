@@ -8,8 +8,11 @@ MASTER_FILE = os.path.join(INPUT_DIR, 'abc_transporters_master.csv')
 CLEANED_DIR = os.path.join(INPUT_DIR, 'cleaned')
 os.makedirs(CLEANED_DIR, exist_ok=True)
 
+INVALID_DATA_FILE = os.path.join(CLEANED_DIR, 'invalid_data.csv')
+
 # ----------------------- Helper Functions -----------------------
 def is_valid_smiles(smiles):
+    """Check if a SMILES string is valid using RDKit."""
     if not smiles or pd.isna(smiles):
         return False
     mol = Chem.MolFromSmiles(smiles)
@@ -22,53 +25,59 @@ def main():
     # Create a lookup for pref_name by target_chembl_id
     target_name_map = dict(zip(master_df['target_chembl_id'], master_df['pref_name']))
     
-    # We will accumulate stats in a dictionary keyed by target_chembl_id
+    # Accumulate stats and invalid data
     stats = {}
-    # stats[target_chembl_id] = {
-    #    'pref_name': str,
-    #    'inhibitors_count': int,
-    #    'substrates_count': int,
-    #    'cleaned_inhibitors_count': int,
-    #    'cleaned_substrates_count': int
-    # }
+    invalid_data = []
 
     # Iterate through all CSV files (except the master file) in INPUT_DIR
     for filename in os.listdir(INPUT_DIR):
-        if not filename.endswith('.csv'):
-            continue
-        if filename == 'abc_transporters_master.csv':
+        if not filename.endswith('.csv') or filename == 'abc_transporters_master.csv':
             continue
 
         file_path = os.path.join(INPUT_DIR, filename)
-        # Determine if inhibitors or substrates file
+        # Determine file type (inhibitors or substrates)
         if '_inhibitors.csv' in filename:
             file_type = 'inhibitors'
         elif '_substrates.csv' in filename:
             file_type = 'substrates'
         else:
-            # Unknown file type, skip
             continue
         
         # Extract target_chembl_id from filename
-        # Format assumed: <target_chembl_id>_<type>.csv
         target_chembl_id = filename.split('_')[0]
-
         df = pd.read_csv(file_path)
 
-        # Count raw rows
+        # Initial row count
         raw_count = len(df)
+        print(f"Processing file: {filename}")
+        print(f"Raw count: {raw_count}")
 
         # Validate SMILES
         df['valid_smiles'] = df['smiles'].apply(is_valid_smiles)
+        invalid_smiles_count = len(df[df['valid_smiles'] == False])
+        print(f"Invalid or missing SMILES: {invalid_smiles_count}")
 
-        # For inhibitors: pchembl_value should not be None
+        # For inhibitors: pchembl_value must not be None
         if file_type == 'inhibitors':
-            cleaned_df = df[(df['valid_smiles'] == True) & (df['pchembl_value'].notna()) & (df['pchembl_value'] != '')]
+            invalid_pchembl_count = len(df[df['pchembl_value'].isna() | (df['pchembl_value'] == '')])
+            print(f"Missing pChEMBL values: {invalid_pchembl_count}")
+            
+            cleaned_df = df[(df['valid_smiles'] == True) & (df['pchembl_value'].notna()) & (df['pchembl_value'] != '')].copy()
         else:
-            # For substrates: only SMILES validity mentioned
-            cleaned_df = df[df['valid_smiles'] == True]
+            cleaned_df = df[df['valid_smiles'] == True].copy()
 
+        # Count cleaned rows
         cleaned_count = len(cleaned_df)
+        print(f"Cleaned count: {cleaned_count}\n")
+
+        # Identify invalid rows for inhibitors and substrates separately
+        if file_type == 'inhibitors':
+            invalid_rows = df[(df['valid_smiles'] == False) | (df['pchembl_value'].isna()) | (df['pchembl_value'] == '')]
+        else:  # For substrates, only check for invalid SMILES
+            invalid_rows = df[df['valid_smiles'] == False]
+
+        if not invalid_rows.empty:
+            invalid_data.append(invalid_rows)
 
         # Save cleaned file
         cleaned_path = os.path.join(CLEANED_DIR, filename)
@@ -107,8 +116,15 @@ def main():
     summary_df = pd.DataFrame(records)
     summary_path = os.path.join(CLEANED_DIR, 'summary.csv')
     summary_df.to_csv(summary_path, index=False)
+    print("Summary file saved at:", summary_path)
 
-    print("Cleaning complete. Summary file saved at:", summary_path)
+    # Save invalid data for inspection
+    if invalid_data:
+        invalid_df = pd.concat(invalid_data, ignore_index=True)
+        invalid_df.to_csv(INVALID_DATA_FILE, index=False)
+        print(f"Invalid data saved to: {INVALID_DATA_FILE}")
+    else:
+        print("No invalid data found.")
 
 if __name__ == '__main__':
     main()
