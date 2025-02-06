@@ -1,3 +1,0 @@
-activity_id,assay_chembl_id,molecule_chembl_id,standard_type,standard_value,standard_units,standard_relation,published_value,published_units,published_relation,pchembl_value,activity_comment,data_validity_comment,confidence_score,ligand_efficiency,document_chembl_id,record_id,target_chembl_id
-24366024,CHEMBL5035863,CHEMBL4297270,IC50,7500.0,nM,=,,,,5.12,,,,,CHEMBL5034035,3775602,CHEMBL1743129
-24366025,CHEMBL5035863,CHEMBL5087506,IC50,100000.0,nM,>,,,,,,,,,CHEMBL5034035,3775604,CHEMBL1743129

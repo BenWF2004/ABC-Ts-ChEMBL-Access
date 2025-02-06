@@ -1,2 +1,0 @@
-activity_id,assay_chembl_id,molecule_chembl_id,standard_type,standard_value,standard_units,standard_relation,published_value,published_units,published_relation,pchembl_value,activity_comment,data_validity_comment,confidence_score,ligand_efficiency,document_chembl_id,record_id,target_chembl_id
-11000677,CHEMBL2076521,CHEMBL1697724,Km,57800.0,nM,=,,,,,substrate [Km=57.8uM],,,,CHEMBL2074568,1670703,CHEMBL2073687

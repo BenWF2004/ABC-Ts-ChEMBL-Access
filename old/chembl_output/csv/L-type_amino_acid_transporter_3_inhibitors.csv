@@ -1,4 +1,0 @@
-molecule_chembl_id,activity_type,standard_value,standard_units,confidence_score
-CHEMBL3959689,IC50,15500.0,nM,
-CHEMBL3896908,IC50,151200.0,nM,
-CHEMBL3950967,IC50,124500.0,nM,

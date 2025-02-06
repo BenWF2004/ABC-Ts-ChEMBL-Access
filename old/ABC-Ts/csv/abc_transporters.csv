@@ -1,3 +1,0 @@
-cross_references,organism,pref_name,species_group_flag,target_chembl_id,target_components,target_type,tax_id
-[],Homo sapiens,ABC-1,False,CHEMBL1075391,[],CELL-LINE,9606
-[],Homo sapiens,ABCD1,False,CHEMBL5303722,"[{'accession': 'ENSG00000101986', 'component_description': 'ABCD1', 'component_id': 20509, 'component_type': 'DNA', 'relationship': 'DNA', 'target_component_synonyms': [], 'target_component_xrefs': []}]",NUCLEIC-ACID,9606

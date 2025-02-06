@@ -1,9 +1,0 @@
-molecule_chembl_id,activity_type,standard_value,standard_units,confidence_score
-CHEMBL2323121,Kcat,2.76,/s,
-CHEMBL25380,Kcat,3.35,/s,
-CHEMBL2323123,Kcat,5.57,/s,
-CHEMBL2323122,Kcat,5.94,/s,
-CHEMBL2323121,Km,250000.0,nM,
-CHEMBL25380,Km,410000.0,nM,
-CHEMBL2323123,Km,1660000.0,nM,
-CHEMBL2323122,Km,1360000.0,nM,
